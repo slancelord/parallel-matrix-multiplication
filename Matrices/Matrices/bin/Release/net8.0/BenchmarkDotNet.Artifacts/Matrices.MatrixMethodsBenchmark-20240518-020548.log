@@ -1,0 +1,64 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\ec035b7a-eaf3-4d77-81b2-cee74d15553c
+// command took 2.98 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\ec035b7a-eaf3-4d77-81b2-cee74d15553c
+// command took 16.89 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\ec035b7a-eaf3-4d77-81b2-cee74d15553c
+// command took 6.2 sec and exited with 0
+// ***** Done, took 00:00:26 (26.46 sec)   *****
+// Found 2 benchmarks:
+//   MatrixMethodsBenchmark.MultiplyParallelTiled: DefaultJob
+//   MatrixMethodsBenchmark.MultiplyParallel: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MatrixMethodsBenchmark.MultiplyParallelTiled: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet ec035b7a-eaf3-4d77-81b2-cee74d15553c.dll --anonymousPipes 1576 1324 --benchmarkName Matrices.MatrixMethodsBenchmark.MultiplyParallelTiled --job Default --benchmarkId 0 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\ec035b7a-eaf3-4d77-81b2-cee74d15553c\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 554400.00 ns, 554.4000 us/op
+WorkloadJitting  1: 1 op, 32580060000.00 ns, 32.5801 s/op
+
+WorkloadWarmup   1: 1 op, 32874957000.00 ns, 32.8750 s/op
+WorkloadWarmup   2: 1 op, 33029268900.00 ns, 33.0293 s/op
+WorkloadWarmup   3: 1 op, 28978150000.00 ns, 28.9781 s/op
+WorkloadWarmup   4: 1 op, 28932591800.00 ns, 28.9326 s/op
+WorkloadWarmup   5: 1 op, 33457082900.00 ns, 33.4571 s/op
+WorkloadWarmup   6: 1 op, 33363639600.00 ns, 33.3636 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 33301231300.00 ns, 33.3012 s/op
+WorkloadActual   2: 1 op, 33187151200.00 ns, 33.1872 s/op
+WorkloadActual   3: 1 op, 33182596000.00 ns, 33.1826 s/op
+WorkloadActual   4: 1 op, 32971888000.00 ns, 32.9719 s/op
+WorkloadActual   5: 1 op, 32927395300.00 ns, 32.9274 s/op
+WorkloadActual   6: 1 op, 28899921500.00 ns, 28.8999 s/op
+WorkloadActual   7: 1 op, 33056756500.00 ns, 33.0568 s/op
+WorkloadActual   8: 1 op, 28917933300.00 ns, 28.9179 s/op
+WorkloadActual   9: 1 op, 33347512500.00 ns, 33.3475 s/op
+WorkloadActual  10: 1 op, 29306164000.00 ns, 29.3062 s/op
+WorkloadActual  11: 1 op, 33484707700.00 ns, 33.4847 s/op
+WorkloadActual  12: 1 op, 33697716500.00 ns, 33.6977 s/op
+WorkloadActual  13: 1 op, 33401589800.00 ns, 33.4016 s/op
+WorkloadActual  14: 1 op, 33206352300.00 ns, 33.2064 s/op
+WorkloadActual  15: 1 op, 33052366000.00 ns, 33.0524 s/op
+WorkloadActual  16: 1 op, 32963818000.00 ns, 32.9638 s/op
+WorkloadActual  17: 1 op, 33397644400.00 ns, 33.3976 s/op
+WorkloadActual  18: 1 op, 33181469400.00 ns, 33.1815 s/op
+WorkloadActual  19: 1 op, 28981088300.00 ns, 28.9811 s/op
+WorkloadActual  20: 1 op, 33318291900.00 ns, 33.3183 s/op
+WorkloadActual  21: 1 op, 33195060300.00 ns, 33.1951 s/op
+WorkloadActual  22: 1 op, 33090905700.00 ns, 33.0909 s/op
+WorkloadActual  23: 1

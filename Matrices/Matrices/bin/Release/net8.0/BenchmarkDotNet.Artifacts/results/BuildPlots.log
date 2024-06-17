@@ -1,0 +1,476 @@
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-boxplot.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-barplot.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=250-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=1000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=1500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Size=2000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=250-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=250-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=250-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=2000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=2000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=2000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-Job-IEMLEH Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-facetTimeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-Multiply-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=250-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=1000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=1500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Size=2000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=250-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=250-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=250-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=2000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=2000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=2000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-Job-IEMLEH Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-facetTimeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallel-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=250-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=1000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=1500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Size=2000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=250-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=250-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=250-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=2000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=2000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=2000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-Job-IEMLEH Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-facetTimeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelBanded-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=250-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=1000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=1500-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Size=2000-facetDensity.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=250-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=250-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=250-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=250-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1500-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1500-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1500-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=1500-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=2000-timeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=2000-timelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=2000-cummean.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-Job-IEMLEH Size=2000-density.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-facetTimeline.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-facetTimelineSmooth.png ***
+------------------------------
+*** Plot: F:\Diplom\project\Matrices\Matrices\bin\Release\net8.0\BenchmarkDotNet.Artifacts\results\Matrices.AllParallelMultiplyBenchmark-MultiplyParallelTiled-cummean.png ***
+------------------------------
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'dplyr'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:stats':
+    filter, lag
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:base':
+    intersect, setdiff, setequal, union
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'gdata'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╤Б╨║╤А╤Л╤В╤Л ╨╛╤В 'package:dplyr':
+    combine, first, last, starts_with
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:stats':
+    nobs
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:utils':
+    object.size
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:base':
+    startsWith
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'tidyr'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:gdata':
+    starts_with
+╨Я╤А╨╕╤Б╨╛╨╡╨┤╨╕╨╜╤П╤О ╨┐╨░╨║╨╡╤В: 'gridExtra'
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:gdata':
+    combine
+╨б╨╗╨╡╨┤╤Г╤О╤Й╨╕╨╣ ╨╛╨▒╤К╨╡╨║╤В ╤Б╨║╤А╤Л╤В ╨╛╤В 'package:dplyr':
+    combine
+R.devices v2.17.2 (2024-01-29 13:30:11 UTC) successfully loaded. See ?R.devices for help.
+`summarise()` has grouped output by 'Target_Method'. You can override using the
+`.groups` argument.
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+Saving 7 x 7 in image
+╨С╤Л╨╗╨╛ 50 ╨╕╨╗╨╕ ╨▒╨╛╨╗╨╡╨╡ ╨┐╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣ (╨▓╨▓╨╡╨┤╨╕╤В╨╡ warnings() ╤З╤В╨╛╨▒╤Л ╨┐╤А╨╛╤Б╨╝╨╛╤В╤А╨╡╤В╤М ╨┐╨╡╤А╨▓╤Л╨╡ 50)

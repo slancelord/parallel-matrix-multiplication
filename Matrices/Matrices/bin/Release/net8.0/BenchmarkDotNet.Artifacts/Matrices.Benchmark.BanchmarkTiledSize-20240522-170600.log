@@ -1,0 +1,50 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\878aaf55-77e4-4896-a2b7-8e8d575beb82
+// command took 2.55 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\878aaf55-77e4-4896-a2b7-8e8d575beb82
+// command took 16.32 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\878aaf55-77e4-4896-a2b7-8e8d575beb82
+// command took 5.18 sec and exited with 0
+// ***** Done, took 00:00:24 (24.42 sec)   *****
+// Found 6 benchmarks:
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=25, Size=2000]
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=50, Size=2000]
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=75, Size=2000]
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=100, Size=2000]
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=150, Size=2000]
+//   BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=300, Size=2000]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: BanchmarkTiledSize.MultiplyParallelTiled: DefaultJob [n=25, Size=2000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 878aaf55-77e4-4896-a2b7-8e8d575beb82.dll --anonymousPipes 2032 2036 --benchmarkName "Matrices.Benchmark.BanchmarkTiledSize.MultiplyParallelTiled(n: 25, Size: 2000)" --job Default --benchmarkId 0 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\878aaf55-77e4-4896-a2b7-8e8d575beb82\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 356300.00 ns, 356.3000 us/op
+WorkloadJitting  1: 1 op, 10466499700.00 ns, 10.4665 s/op
+
+WorkloadWarmup   1: 1 op, 11340774100.00 ns, 11.3408 s/op
+WorkloadWarmup   2: 1 op, 11533989300.00 ns, 11.5340 s/op
+WorkloadWarmup   3: 1 op, 11635092700.00 ns, 11.6351 s/op
+WorkloadWarmup   4: 1 op, 11842152400.00 ns, 11.8422 s/op
+WorkloadWarmup   5: 1 op, 11892810600.00 ns, 11.8928 s/op
+WorkloadWarmup   6: 1 op, 11674601100.00 ns, 11.6746 s/op
+WorkloadWarmup   7: 1 op, 12015281700.00 ns, 12.0153 s/op
+WorkloadWarmup   8: 1 op, 12210151600.00 ns, 12.2102 s/op
+WorkloadWarmup   9: 1 op, 12068216300.00 ns, 12.0682 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 12159292100.00 ns, 12.1593 s/op
+WorkloadActual   2: 1 op, 12273933800.00 ns, 12.2739 s/op

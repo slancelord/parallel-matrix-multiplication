@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Matrices.Benchmark.MultiplyBenchmark-20240520-171450</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3593/23H2/2023Update/SunValley3)
+Intel Xeon CPU E5-2630 0 2.30GHz, 1 CPU, 12 logical and 6 physical cores
+.NET SDK 8.0.205
+  [Host]     : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX [AttachedDebugger]
+  Job-FGRYCW : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+</code></pre>
+<pre><code>IterationCount=3  
+</code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Size</th><th>Mean  </th><th>Error</th><th>StdDev</th><th>Completed Work Items</th><th>Lock Contentions</th>
+</tr>
+</thead><tbody><tr><td>Multiply</td><td>250</td><td>94.75 ms</td><td>14.30 ms</td><td>0.784 ms</td><td>-</td><td>-</td>
+</tr><tr><td>Multiply</td><td>500</td><td>874.14 ms</td><td>300.17 ms</td><td>16.453 ms</td><td>-</td><td>-</td>
+</tr><tr><td>Multiply</td><td>1000</td><td>9,646.80 ms</td><td>5,562.89 ms</td><td>304.921 ms</td><td>-</td><td>-</td>
+</tr><tr><td>Multiply</td><td>1500</td><td>37,260.24 ms</td><td>5,565.32 ms</td><td>305.054 ms</td><td>-</td><td>-</td>
+</tr><tr><td>Multiply</td><td>2000</td><td>85,131.85 ms</td><td>2,900.85 ms</td><td>159.005 ms</td><td>-</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>

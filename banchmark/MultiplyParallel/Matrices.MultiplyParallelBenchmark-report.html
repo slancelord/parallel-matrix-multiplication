@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Matrices.MultiplyParallelBenchmark-20240522-131026</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3593/23H2/2023Update/SunValley3)
+Intel Xeon CPU E5-2630 0 2.30GHz, 1 CPU, 12 logical and 6 physical cores
+.NET SDK 8.0.205
+  [Host]     : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX [AttachedDebugger]
+  Job-BVFADD : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+</code></pre>
+<pre><code>IterationCount=3  WarmupCount=5  
+</code></pre>
+
+<table>
+<thead><tr><th>Method    </th><th>Size</th><th>Mean  </th><th>Error </th><th>StdDev</th><th>Completed Work Items</th><th>Lock Contentions</th>
+</tr>
+</thead><tbody><tr><td>MultiplyParallel</td><td>250</td><td>22.54 ms</td><td>2.472 ms</td><td>0.135 ms</td><td>12.9063</td><td>-</td>
+</tr><tr><td>MultiplyParallel</td><td>500</td><td>175.91 ms</td><td>31.574 ms</td><td>1.731 ms</td><td>15.0000</td><td>-</td>
+</tr><tr><td>MultiplyParallel</td><td>1000</td><td>2,030.28 ms</td><td>1,819.616 ms</td><td>99.739 ms</td><td>54.0000</td><td>-</td>
+</tr><tr><td>MultiplyParallel</td><td>1500</td><td>7,162.95 ms</td><td>1,917.327 ms</td><td>105.095 ms</td><td>127.0000</td><td>-</td>
+</tr><tr><td>MultiplyParallel</td><td>2000</td><td>20,184.50 ms</td><td>2,202.486 ms</td><td>120.726 ms</td><td>159.0000</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>

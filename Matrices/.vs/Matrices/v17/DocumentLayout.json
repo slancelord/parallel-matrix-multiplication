@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Diplom\\project\\Matrices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE60CF71-9266-4DAB-942F-F3B43F7F7AD6}|Matrices\\Matrices.csproj|f:\\diplom\\project\\matrices\\matrices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE60CF71-9266-4DAB-942F-F3B43F7F7AD6}|Matrices\\Matrices.csproj|solutionrelative:matrices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE60CF71-9266-4DAB-942F-F3B43F7F7AD6}|Matrices\\Matrices.csproj|f:\\diplom\\project\\matrices\\matrices\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE60CF71-9266-4DAB-942F-F3B43F7F7AD6}|Matrices\\Matrices.csproj|solutionrelative:matrices\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Diplom\\project\\Matrices\\Matrices\\Program.cs",
+              "RelativeDocumentMoniker": "Matrices\\Program.cs",
+              "ToolTip": "F:\\Diplom\\project\\Matrices\\Matrices\\Program.cs",
+              "RelativeToolTip": "Matrices\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:19:49.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matrix.cs",
+              "DocumentMoniker": "F:\\Diplom\\project\\Matrices\\Matrices\\Matrix.cs",
+              "RelativeDocumentMoniker": "Matrices\\Matrix.cs",
+              "ToolTip": "F:\\Diplom\\project\\Matrices\\Matrices\\Matrix.cs",
+              "RelativeToolTip": "Matrices\\Matrix.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAMQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:22:12.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

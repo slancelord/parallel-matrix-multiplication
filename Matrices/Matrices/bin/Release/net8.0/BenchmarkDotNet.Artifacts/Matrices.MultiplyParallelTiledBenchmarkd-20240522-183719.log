@@ -1,0 +1,383 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 5 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e
+// command took 2.4 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e
+// command took 16.11 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e
+// command took 5.05 sec and exited with 0
+// ***** Done, took 00:00:23 (23.97 sec)   *****
+// Found 5 benchmarks:
+//   MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=250]
+//   MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=500]
+//   MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1000]
+//   MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1500]
+//   MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=2000]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=250]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 9a9a852c-3dac-4681-a892-fd534d354b0e.dll --anonymousPipes 1696 1728 --benchmarkName "Matrices.MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled(Size: 250)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 0 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-PYUCUJ(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 357800.00 ns, 357.8000 us/op
+WorkloadJitting  1: 1 op, 40725500.00 ns, 40.7255 ms/op
+
+WorkloadPilot    1: 2 op, 48045300.00 ns, 24.0226 ms/op
+WorkloadPilot    2: 3 op, 70738200.00 ns, 23.5794 ms/op
+WorkloadPilot    3: 4 op, 107014500.00 ns, 26.7536 ms/op
+WorkloadPilot    4: 5 op, 120932400.00 ns, 24.1865 ms/op
+WorkloadPilot    5: 6 op, 132129500.00 ns, 22.0216 ms/op
+WorkloadPilot    6: 7 op, 151431800.00 ns, 21.6331 ms/op
+WorkloadPilot    7: 8 op, 174229500.00 ns, 21.7787 ms/op
+WorkloadPilot    8: 9 op, 204322000.00 ns, 22.7024 ms/op
+WorkloadPilot    9: 10 op, 234202700.00 ns, 23.4203 ms/op
+WorkloadPilot   10: 11 op, 239141400.00 ns, 21.7401 ms/op
+WorkloadPilot   11: 12 op, 274633600.00 ns, 22.8861 ms/op
+WorkloadPilot   12: 13 op, 283497400.00 ns, 21.8075 ms/op
+WorkloadPilot   13: 14 op, 308295300.00 ns, 22.0211 ms/op
+WorkloadPilot   14: 15 op, 332494800.00 ns, 22.1663 ms/op
+WorkloadPilot   15: 16 op, 354206300.00 ns, 22.1379 ms/op
+WorkloadPilot   16: 32 op, 695270700.00 ns, 21.7272 ms/op
+
+WorkloadWarmup   1: 32 op, 709076200.00 ns, 22.1586 ms/op
+WorkloadWarmup   2: 32 op, 694368700.00 ns, 21.6990 ms/op
+WorkloadWarmup   3: 32 op, 702959900.00 ns, 21.9675 ms/op
+WorkloadWarmup   4: 32 op, 721751000.00 ns, 22.5547 ms/op
+WorkloadWarmup   5: 32 op, 696628500.00 ns, 21.7696 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 32 op, 698579100.00 ns, 21.8306 ms/op
+WorkloadActual   2: 32 op, 703182800.00 ns, 21.9745 ms/op
+WorkloadActual   3: 32 op, 696310100.00 ns, 21.7597 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 32 op, 698579100.00 ns, 21.8306 ms/op
+WorkloadResult   2: 32 op, 703182800.00 ns, 21.9745 ms/op
+WorkloadResult   3: 32 op, 696310100.00 ns, 21.7597 ms/op
+// GC:  2 2 2 8172448 32
+// Threading:  411 0 32
+
+// AfterAll
+// Benchmark Process 9644 has exited with code 0.
+
+Mean = 21.855 ms, StdErr = 0.063 ms (0.29%), N = 3, StdDev = 0.109 ms
+Min = 21.760 ms, Q1 = 21.795 ms, Median = 21.831 ms, Q3 = 21.903 ms, Max = 21.974 ms
+IQR = 0.107 ms, LowerFence = 21.634 ms, UpperFence = 22.064 ms
+ConfidenceInterval = [19.858 ms; 23.851 ms] (CI 99.9%), Margin = 1.996 ms (9.13% of Mean)
+Skewness = 0.21, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 4 (80,0 %) benchmark(s) to run. Estimated finish 2024-05-22 18:38 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=500]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 9a9a852c-3dac-4681-a892-fd534d354b0e.dll --anonymousPipes 2496 2492 --benchmarkName "Matrices.MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled(Size: 500)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 1 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-LJHZMJ(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 356000.00 ns, 356.0000 us/op
+WorkloadJitting  1: 1 op, 179764700.00 ns, 179.7647 ms/op
+
+WorkloadPilot    1: 2 op, 321436000.00 ns, 160.7180 ms/op
+WorkloadPilot    2: 3 op, 473080600.00 ns, 157.6935 ms/op
+WorkloadPilot    3: 4 op, 648710400.00 ns, 162.1776 ms/op
+
+WorkloadWarmup   1: 4 op, 641580800.00 ns, 160.3952 ms/op
+WorkloadWarmup   2: 4 op, 641938100.00 ns, 160.4845 ms/op
+WorkloadWarmup   3: 4 op, 649560900.00 ns, 162.3902 ms/op
+WorkloadWarmup   4: 4 op, 655445000.00 ns, 163.8613 ms/op
+WorkloadWarmup   5: 4 op, 679849200.00 ns, 169.9623 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 4 op, 696840500.00 ns, 174.2101 ms/op
+WorkloadActual   2: 4 op, 680514600.00 ns, 170.1286 ms/op
+WorkloadActual   3: 4 op, 705458600.00 ns, 176.3647 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 4 op, 696840500.00 ns, 174.2101 ms/op
+WorkloadResult   2: 4 op, 680514600.00 ns, 170.1286 ms/op
+WorkloadResult   3: 4 op, 705458600.00 ns, 176.3647 ms/op
+// GC:  0 0 0 4022416 4
+// Threading:  55 0 4
+
+// AfterAll
+// Benchmark Process 25908 has exited with code 0.
+
+Mean = 173.568 ms, StdErr = 1.829 ms (1.05%), N = 3, StdDev = 3.167 ms
+Min = 170.129 ms, Q1 = 172.169 ms, Median = 174.210 ms, Q3 = 175.287 ms, Max = 176.365 ms
+IQR = 3.118 ms, LowerFence = 167.492 ms, UpperFence = 179.964 ms
+ConfidenceInterval = [115.786 ms; 231.350 ms] (CI 99.9%), Margin = 57.782 ms (33.29% of Mean)
+Skewness = -0.19, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 3 (60,0 %) benchmark(s) to run. Estimated finish 2024-05-22 18:38 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 9a9a852c-3dac-4681-a892-fd534d354b0e.dll --anonymousPipes 2540 2520 --benchmarkName "Matrices.MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled(Size: 1000)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 2 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-AXYGIN(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 353100.00 ns, 353.1000 us/op
+WorkloadJitting  1: 1 op, 1398313600.00 ns, 1.3983 s/op
+
+OverheadJitting  2: 1 op, 600.00 ns, 600.0000 ns/op
+WorkloadJitting  2: 1 op, 1649382600.00 ns, 1.6494 s/op
+
+WorkloadWarmup   1: 1 op, 1633683300.00 ns, 1.6337 s/op
+WorkloadWarmup   2: 1 op, 1669861800.00 ns, 1.6699 s/op
+WorkloadWarmup   3: 1 op, 1676622200.00 ns, 1.6766 s/op
+WorkloadWarmup   4: 1 op, 1683248600.00 ns, 1.6832 s/op
+WorkloadWarmup   5: 1 op, 1668841000.00 ns, 1.6688 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1697024000.00 ns, 1.6970 s/op
+WorkloadActual   2: 1 op, 1711125800.00 ns, 1.7111 s/op
+WorkloadActual   3: 1 op, 1716935500.00 ns, 1.7169 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1697024000.00 ns, 1.6970 s/op
+WorkloadResult   2: 1 op, 1711125800.00 ns, 1.7111 s/op
+WorkloadResult   3: 1 op, 1716935500.00 ns, 1.7169 s/op
+// GC:  0 0 0 4028304 1
+// Threading:  95 1 1
+
+// AfterAll
+// Benchmark Process 20536 has exited with code 0.
+
+Mean = 1.708 s, StdErr = 0.006 s (0.35%), N = 3, StdDev = 0.010 s
+Min = 1.697 s, Q1 = 1.704 s, Median = 1.711 s, Q3 = 1.714 s, Max = 1.717 s
+IQR = 0.010 s, LowerFence = 1.689 s, UpperFence = 1.729 s
+ConfidenceInterval = [1.522 s; 1.895 s] (CI 99.9%), Margin = 0.187 s (10.93% of Mean)
+Skewness = -0.25, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 2 (40,0 %) benchmark(s) to run. Estimated finish 2024-05-22 18:38 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1500]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 9a9a852c-3dac-4681-a892-fd534d354b0e.dll --anonymousPipes 2236 2444 --benchmarkName "Matrices.MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled(Size: 1500)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 3 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-MVHPER(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 349400.00 ns, 349.4000 us/op
+WorkloadJitting  1: 1 op, 4931021600.00 ns, 4.9310 s/op
+
+OverheadJitting  2: 1 op, 3000.00 ns, 3.0000 us/op
+WorkloadJitting  2: 1 op, 4891788100.00 ns, 4.8918 s/op
+
+WorkloadWarmup   1: 1 op, 4876133200.00 ns, 4.8761 s/op
+WorkloadWarmup   2: 1 op, 4936865600.00 ns, 4.9369 s/op
+WorkloadWarmup   3: 1 op, 4899624200.00 ns, 4.8996 s/op
+WorkloadWarmup   4: 1 op, 4962570700.00 ns, 4.9626 s/op
+WorkloadWarmup   5: 1 op, 4922916400.00 ns, 4.9229 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 4980927500.00 ns, 4.9809 s/op
+WorkloadActual   2: 1 op, 5016782600.00 ns, 5.0168 s/op
+WorkloadActual   3: 1 op, 4978385400.00 ns, 4.9784 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 4980927500.00 ns, 4.9809 s/op
+WorkloadResult   2: 1 op, 5016782600.00 ns, 5.0168 s/op
+WorkloadResult   3: 1 op, 4978385400.00 ns, 4.9784 s/op
+// GC:  0 0 0 9069584 1
+// Threading:  278 0 1
+
+// AfterAll
+// Benchmark Process 12964 has exited with code 0.
+
+Mean = 4.992 s, StdErr = 0.012 s (0.25%), N = 3, StdDev = 0.021 s
+Min = 4.978 s, Q1 = 4.980 s, Median = 4.981 s, Q3 = 4.999 s, Max = 5.017 s
+IQR = 0.019 s, LowerFence = 4.951 s, UpperFence = 5.028 s
+ConfidenceInterval = [4.600 s; 5.384 s] (CI 99.9%), Margin = 0.392 s (7.85% of Mean)
+Skewness = 0.38, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 1 (20,0 %) benchmark(s) to run. Estimated finish 2024-05-22 18:39 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=2000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 9a9a852c-3dac-4681-a892-fd534d354b0e.dll --anonymousPipes 2244 1408 --benchmarkName "Matrices.MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled(Size: 2000)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 4 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\9a9a852c-3dac-4681-a892-fd534d354b0e\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-KRPDFU(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 336400.00 ns, 336.4000 us/op
+WorkloadJitting  1: 1 op, 14053753200.00 ns, 14.0538 s/op
+
+WorkloadWarmup   1: 1 op, 14162589900.00 ns, 14.1626 s/op
+WorkloadWarmup   2: 1 op, 14106102700.00 ns, 14.1061 s/op
+WorkloadWarmup   3: 1 op, 14312309000.00 ns, 14.3123 s/op
+WorkloadWarmup   4: 1 op, 14258691200.00 ns, 14.2587 s/op
+WorkloadWarmup   5: 1 op, 14289585700.00 ns, 14.2896 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 14341459600.00 ns, 14.3415 s/op
+WorkloadActual   2: 1 op, 14329726000.00 ns, 14.3297 s/op
+WorkloadActual   3: 1 op, 14374528700.00 ns, 14.3745 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 14341459600.00 ns, 14.3415 s/op
+WorkloadResult   2: 1 op, 14329726000.00 ns, 14.3297 s/op
+WorkloadResult   3: 1 op, 14374528700.00 ns, 14.3745 s/op
+// GC:  0 0 0 16132296 1
+// Threading:  412 0 1
+
+// AfterAll
+// Benchmark Process 23364 has exited with code 0.
+
+Mean = 14.349 s, StdErr = 0.013 s (0.09%), N = 3, StdDev = 0.023 s
+Min = 14.330 s, Q1 = 14.336 s, Median = 14.341 s, Q3 = 14.358 s, Max = 14.375 s
+IQR = 0.022 s, LowerFence = 14.302 s, UpperFence = 14.392 s
+ConfidenceInterval = [13.925 s; 14.772 s] (CI 99.9%), Margin = 0.424 s (2.95% of Mean)
+Skewness = 0.28, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 0 (0,0 %) benchmark(s) to run. Estimated finish 2024-05-22 18:41 (0h 0m from now) **
+Successfully reverted power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Matrices.MultiplyParallelTiledBenchmarkd-report.csv
+  BenchmarkDotNet.Artifacts\results\Matrices.MultiplyParallelTiledBenchmarkd-report-github.md
+  BenchmarkDotNet.Artifacts\results\Matrices.MultiplyParallelTiledBenchmarkd-report.html
+  BenchmarkDotNet.Artifacts\results\Matrices.MultiplyParallelTiledBenchmarkd-measurements.csv
+  BenchmarkDotNet.Artifacts\results\BuildPlots.R
+  BenchmarkDotNet.Artifacts\results\*.png
+
+// * Detailed results *
+MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=250]
+Runtime = .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX; GC = Concurrent Workstation
+Mean = 21.855 ms, StdErr = 0.063 ms (0.29%), N = 3, StdDev = 0.109 ms
+Min = 21.760 ms, Q1 = 21.795 ms, Median = 21.831 ms, Q3 = 21.903 ms, Max = 21.974 ms
+IQR = 0.107 ms, LowerFence = 21.634 ms, UpperFence = 22.064 ms
+ConfidenceInterval = [19.858 ms; 23.851 ms] (CI 99.9%), Margin = 1.996 ms (9.13% of Mean)
+Skewness = 0.21, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[21.660 ms ; 22.074 ms) | @@@
+---------------------------------------------------
+
+MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=500]
+Runtime = .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX; GC = Concurrent Workstation
+Mean = 173.568 ms, StdErr = 1.829 ms (1.05%), N = 3, StdDev = 3.167 ms
+Min = 170.129 ms, Q1 = 172.169 ms, Median = 174.210 ms, Q3 = 175.287 ms, Max = 176.365 ms
+IQR = 3.118 ms, LowerFence = 167.492 ms, UpperFence = 179.964 ms
+ConfidenceInterval = [115.786 ms; 231.350 ms] (CI 99.9%), Margin = 57.782 ms (33.29% of Mean)
+Skewness = -0.19, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[167.246 ms ; 172.405 ms) | @
+[172.405 ms ; 179.247 ms) | @@
+---------------------------------------------------
+
+MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1000]
+Runtime = .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX; GC = Concurrent Workstation
+Mean = 1.708 s, StdErr = 0.006 s (0.35%), N = 3, StdDev = 0.010 s
+Min = 1.697 s, Q1 = 1.704 s, Median = 1.711 s, Q3 = 1.714 s, Max = 1.717 s
+IQR = 0.010 s, LowerFence = 1.689 s, UpperFence = 1.729 s
+ConfidenceInterval = [1.522 s; 1.895 s] (CI 99.9%), Margin = 0.187 s (10.93% of Mean)
+Skewness = -0.25, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[1.697 s ; 1.726 s) | @@@
+---------------------------------------------------
+
+MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=1500]
+Runtime = .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX; GC = Concurrent Workstation
+Mean = 4.992 s, StdErr = 0.012 s (0.25%), N = 3, StdDev = 0.021 s
+Min = 4.978 s, Q1 = 4.980 s, Median = 4.981 s, Q3 = 4.999 s, Max = 5.017 s
+IQR = 0.019 s, LowerFence = 4.951 s, UpperFence = 5.028 s
+ConfidenceInterval = [4.600 s; 5.384 s] (CI 99.9%), Margin = 0.392 s (7.85% of Mean)
+Skewness = 0.38, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[4.978 s ; 5.017 s) | @@@
+---------------------------------------------------
+
+MultiplyParallelTiledBenchmarkd.MultiplyParallelTiled: Job-SEQHDO(IterationCount=3, WarmupCount=5) [Size=2000]
+Runtime = .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX; GC = Concurrent Workstation
+Mean = 14.349 s, StdErr = 0.013 s (0.09%), N = 3, StdDev = 0.023 s
+Min = 14.330 s, Q1 = 14.336 s, Median = 14.341 s, Q3 = 14.358 s, Max = 14.375 s
+IQR = 0.022 s, LowerFence = 14.302 s, UpperFence = 14.392 s
+ConfidenceInterval = [13.925 s; 14.772 s] (CI 99.9%), Margin = 0.424 s (2.95% of Mean)
+Skewness = 0.28, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[14.309 s ; 14.396 s) | @@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3593/23H2/2023Update/SunValley3)
+Intel Xeon CPU E5-2630 0 2.30GHz, 1 CPU, 12 logical and 6 physical cores
+.NET SDK 8.0.205
+  [Host]     : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX [AttachedDebugger]
+  Job-SEQHDO : .NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+
+IterationCount=3  WarmupCount=5  
+
+| Method                | Size | Mean         | Error      | StdDev    | Completed Work Items | Lock Contentions |
+|---------------------- |----- |-------------:|-----------:|----------:|---------------------:|-----------------:|
+| MultiplyParallelTiled | 250  |     21.85 ms |   1.996 ms |  0.109 ms |              12.8438 |                - |
+| MultiplyParallelTiled | 500  |    173.57 ms |  57.782 ms |  3.167 ms |              13.7500 |                - |
+| MultiplyParallelTiled | 1000 |  1,708.36 ms | 186.806 ms | 10.239 ms |              95.0000 |           1.0000 |
+| MultiplyParallelTiled | 1500 |  4,992.03 ms | 391.737 ms | 21.472 ms |             278.0000 |                - |
+| MultiplyParallelTiled | 2000 | 14,348.57 ms | 423.849 ms | 23.233 ms |             412.0000 |                - |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Size                 : Value of the 'Size' parameter
+  Mean                 : Arithmetic mean of all measurements
+  Error                : Half of 99.9% confidence interval
+  StdDev               : Standard deviation of all measurements
+  Completed Work Items : The number of work items that have been processed in ThreadPool (per single operation)
+  Lock Contentions     : The number of times there was contention upon trying to take a Monitor's lock (per single operation)
+  1 ms                 : 1 Millisecond (0.001 sec)
+
+// * Diagnostic Output - ThreadingDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:03:54 (234.11 sec), executed benchmarks: 5
+
+Global total time: 00:04:47 (287.03 sec), executed benchmarks: 5
+// * Artifacts cleanup *
+Artifacts cleanup is finished

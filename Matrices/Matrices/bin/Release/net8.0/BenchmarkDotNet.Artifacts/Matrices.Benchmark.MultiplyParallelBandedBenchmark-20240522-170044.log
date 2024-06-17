@@ -1,0 +1,219 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 5 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822
+// command took 2.82 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822
+// command took 16.4 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822
+// command took 5.07 sec and exited with 0
+// ***** Done, took 00:00:24 (24.77 sec)   *****
+// Found 5 benchmarks:
+//   MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=250]
+//   MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=500]
+//   MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=1000]
+//   MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=1500]
+//   MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=2000]
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=250]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7f5c00e3-162c-4764-a712-42adf4ffd822.dll --anonymousPipes 2096 1372 --benchmarkName "Matrices.Benchmark.MultiplyParallelBandedBenchmark.MultiplyParallelBanded(Size: 250)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 0 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-YWYNGM(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 351800.00 ns, 351.8000 us/op
+WorkloadJitting  1: 1 op, 82816100.00 ns, 82.8161 ms/op
+
+WorkloadPilot    1: 2 op, 128837400.00 ns, 64.4187 ms/op
+WorkloadPilot    2: 3 op, 196018200.00 ns, 65.3394 ms/op
+WorkloadPilot    3: 4 op, 255228500.00 ns, 63.8071 ms/op
+WorkloadPilot    4: 5 op, 313222400.00 ns, 62.6445 ms/op
+WorkloadPilot    5: 6 op, 295910000.00 ns, 49.3183 ms/op
+WorkloadPilot    6: 7 op, 181670900.00 ns, 25.9530 ms/op
+WorkloadPilot    7: 8 op, 193020400.00 ns, 24.1275 ms/op
+WorkloadPilot    8: 9 op, 222645300.00 ns, 24.7384 ms/op
+WorkloadPilot    9: 10 op, 245647300.00 ns, 24.5647 ms/op
+WorkloadPilot   10: 11 op, 266119700.00 ns, 24.1927 ms/op
+WorkloadPilot   11: 12 op, 296260500.00 ns, 24.6884 ms/op
+WorkloadPilot   12: 13 op, 326489000.00 ns, 25.1145 ms/op
+WorkloadPilot   13: 14 op, 344522700.00 ns, 24.6088 ms/op
+WorkloadPilot   14: 15 op, 368649200.00 ns, 24.5766 ms/op
+WorkloadPilot   15: 16 op, 397603900.00 ns, 24.8502 ms/op
+WorkloadPilot   16: 32 op, 786907600.00 ns, 24.5909 ms/op
+
+WorkloadWarmup   1: 32 op, 790885200.00 ns, 24.7152 ms/op
+WorkloadWarmup   2: 32 op, 809308500.00 ns, 25.2909 ms/op
+WorkloadWarmup   3: 32 op, 798613600.00 ns, 24.9567 ms/op
+WorkloadWarmup   4: 32 op, 796163400.00 ns, 24.8801 ms/op
+WorkloadWarmup   5: 32 op, 784174900.00 ns, 24.5055 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 32 op, 800517700.00 ns, 25.0162 ms/op
+WorkloadActual   2: 32 op, 802040800.00 ns, 25.0638 ms/op
+WorkloadActual   3: 32 op, 783338500.00 ns, 24.4793 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 32 op, 800517700.00 ns, 25.0162 ms/op
+WorkloadResult   2: 32 op, 802040800.00 ns, 25.0638 ms/op
+WorkloadResult   3: 32 op, 783338500.00 ns, 24.4793 ms/op
+// GC:  4 2 2 28659808 32
+// Threading:  16422 1 32
+
+// AfterAll
+// Benchmark Process 13376 has exited with code 0.
+
+Mean = 24.853 ms, StdErr = 0.187 ms (0.75%), N = 3, StdDev = 0.325 ms
+Min = 24.479 ms, Q1 = 24.748 ms, Median = 25.016 ms, Q3 = 25.040 ms, Max = 25.064 ms
+IQR = 0.292 ms, LowerFence = 24.309 ms, UpperFence = 25.478 ms
+ConfidenceInterval = [18.932 ms; 30.774 ms] (CI 99.9%), Margin = 5.921 ms (23.83% of Mean)
+Skewness = -0.38, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 4 (80,0 %) benchmark(s) to run. Estimated finish 2024-05-22 17:02 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=500]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7f5c00e3-162c-4764-a712-42adf4ffd822.dll --anonymousPipes 2088 2080 --benchmarkName "Matrices.Benchmark.MultiplyParallelBandedBenchmark.MultiplyParallelBanded(Size: 500)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 1 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-HRSBXW(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 357900.00 ns, 357.9000 us/op
+WorkloadJitting  1: 1 op, 523632800.00 ns, 523.6328 ms/op
+
+OverheadJitting  2: 1 op, 600.00 ns, 600.0000 ns/op
+WorkloadJitting  2: 1 op, 490570000.00 ns, 490.5700 ms/op
+
+WorkloadWarmup   1: 1 op, 477345900.00 ns, 477.3459 ms/op
+WorkloadWarmup   2: 1 op, 199540000.00 ns, 199.5400 ms/op
+WorkloadWarmup   3: 1 op, 205008100.00 ns, 205.0081 ms/op
+WorkloadWarmup   4: 1 op, 210252400.00 ns, 210.2524 ms/op
+WorkloadWarmup   5: 1 op, 202865400.00 ns, 202.8654 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 196662100.00 ns, 196.6621 ms/op
+WorkloadActual   2: 1 op, 199680600.00 ns, 199.6806 ms/op
+WorkloadActual   3: 1 op, 199705300.00 ns, 199.7053 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 196662100.00 ns, 196.6621 ms/op
+WorkloadResult   2: 1 op, 199680600.00 ns, 199.6806 ms/op
+WorkloadResult   3: 1 op, 199705300.00 ns, 199.7053 ms/op
+// GC:  0 0 0 2310400 1
+// Threading:  1121 0 1
+
+// AfterAll
+// Benchmark Process 21036 has exited with code 0.
+
+Mean = 198.683 ms, StdErr = 1.010 ms (0.51%), N = 3, StdDev = 1.750 ms
+Min = 196.662 ms, Q1 = 198.171 ms, Median = 199.681 ms, Q3 = 199.693 ms, Max = 199.705 ms
+IQR = 1.522 ms, LowerFence = 195.889 ms, UpperFence = 201.975 ms
+ConfidenceInterval = [166.758 ms; 230.607 ms] (CI 99.9%), Margin = 31.925 ms (16.07% of Mean)
+Skewness = -0.38, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 3 (60,0 %) benchmark(s) to run. Estimated finish 2024-05-22 17:01 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7f5c00e3-162c-4764-a712-42adf4ffd822.dll --anonymousPipes 1952 2104 --benchmarkName "Matrices.Benchmark.MultiplyParallelBandedBenchmark.MultiplyParallelBanded(Size: 1000)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 2 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-EVYBBG(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 339200.00 ns, 339.2000 us/op
+WorkloadJitting  1: 1 op, 1998951800.00 ns, 1.9990 s/op
+
+OverheadJitting  2: 1 op, 1000.00 ns, 1.0000 us/op
+WorkloadJitting  2: 1 op, 2087971200.00 ns, 2.0880 s/op
+
+WorkloadWarmup   1: 1 op, 2082666500.00 ns, 2.0827 s/op
+WorkloadWarmup   2: 1 op, 2082989700.00 ns, 2.0830 s/op
+WorkloadWarmup   3: 1 op, 2140248800.00 ns, 2.1402 s/op
+WorkloadWarmup   4: 1 op, 2163587700.00 ns, 2.1636 s/op
+WorkloadWarmup   5: 1 op, 2188721200.00 ns, 2.1887 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 2157746100.00 ns, 2.1577 s/op
+WorkloadActual   2: 1 op, 2191471800.00 ns, 2.1915 s/op
+WorkloadActual   3: 1 op, 2207985800.00 ns, 2.2080 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 2157746100.00 ns, 2.1577 s/op
+WorkloadResult   2: 1 op, 2191471800.00 ns, 2.1915 s/op
+WorkloadResult   3: 1 op, 2207985800.00 ns, 2.2080 s/op
+// GC:  0 0 0 6453272 1
+// Threading:  1477 0 1
+
+// AfterAll
+// Benchmark Process 11580 has exited with code 0.
+
+Mean = 2.186 s, StdErr = 0.015 s (0.68%), N = 3, StdDev = 0.026 s
+Min = 2.158 s, Q1 = 2.175 s, Median = 2.191 s, Q3 = 2.200 s, Max = 2.208 s
+IQR = 0.025 s, LowerFence = 2.137 s, UpperFence = 2.237 s
+ConfidenceInterval = [1.719 s; 2.653 s] (CI 99.9%), Margin = 0.467 s (21.37% of Mean)
+Skewness = -0.21, Kurtosis = 0.67, MValue = 2
+
+// ** Remained 2 (40,0 %) benchmark(s) to run. Estimated finish 2024-05-22 17:02 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Высокая производительность)
+// **************************
+// Benchmark: MultiplyParallelBandedBenchmark.MultiplyParallelBanded: Job-VOMSNL(IterationCount=3, WarmupCount=5) [Size=1500]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 7f5c00e3-162c-4764-a712-42adf4ffd822.dll --anonymousPipes 1876 1680 --benchmarkName "Matrices.Benchmark.MultiplyParallelBandedBenchmark.MultiplyParallelBanded(Size: 1500)" --job "IterationCount=3, WarmupCount=5" --benchmarkId 3 in C:\Users\slanc\OneDrive\Рабочий стол\диплом\проект\Matrices\Matrices\bin\Release\net8.0\7f5c00e3-162c-4764-a712-42adf4ffd822\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.12
+// Runtime=.NET 8.0.5 (8.0.524.21615), X64 RyuJIT AVX
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX,AES,PCLMUL,POPCNT VectorSize=128
+// Job: Job-LKRBYZ(IterationCount=3, WarmupCount=5)
+
+OverheadJitting  1: 1 op, 359200.00 ns, 359.2000 us/op
+WorkloadJitting  1: 1 op, 7500576700.00 ns, 7.5006 s/op
+
+OverheadJitting  2: 1 op, 900.00 ns, 900.0000 ns/op
+WorkloadJitting  2: 1 op, 7220559200.00 ns, 7.2206 s/op
+
+WorkloadWarmup   1: 1 op, 7220778400.00 ns, 7.2208 s/op
+WorkloadWarmup   2: 1 op, 7244772600.00 ns, 7.2448 s/op
+WorkloadWarmup   3: 1 op, 7406673100.00 ns, 7.4067 s/op
+WorkloadWarmup   4: 1 op, 7361002200.00 ns, 7.3610 s/op
+WorkloadWarmup   5: 1 op, 7566924700.00 ns, 7.5669 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 7423317900.00 ns, 7.4233 s/op
+WorkloadActual   2: 1 op, 7490440400.00 ns, 7.4904 s/op
+WorkloadActual   3: 1 op, 7462726700.00 ns, 7.4627 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 7423317900.00 ns, 7.4233 s/op
+WorkloadResult   2: 1 op, 7490440400.00 ns, 7.4904 s/op
+WorkloadResult   3: 1 op, 7462726700.00 ns, 7.4627 s/op
+// GC:  0 0 0 12560712 1
+// Threading:  1974 0 1
+
+// Afte
